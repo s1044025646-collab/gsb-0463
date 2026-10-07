@@ -1,0 +1,1 @@
+{ "kind": "lam", "param": "z", "body": { "kind": "var", "name": "y" } }

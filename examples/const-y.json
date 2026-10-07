@@ -1,0 +1,4 @@
+{ "kind": "app",
+  "fn": { "kind": "lam", "param": "x",
+    "body": { "kind": "lam", "param": "y", "body": { "kind": "var", "name": "x" } } },
+  "arg": { "kind": "var", "name": "y" } }
