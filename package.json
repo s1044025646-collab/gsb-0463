@@ -1,0 +1,26 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "dev": "node --experimental-transform-types src/server.ts",
+    "pretest": "tsc -p tsconfig.json",
+    "test": "node --test test/*.test.ts",
+    "predemo": "tsc -p tsconfig.json",
+    "demo": "node dist/scripts/demo.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "lambda": "dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
